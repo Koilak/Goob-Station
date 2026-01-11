@@ -402,14 +402,8 @@
     sprite: _Goobstation/Objects/Weapons/Guns/Lever/chester.rsi
     state: base
   content:
-  # Guaranteed items
   - WeaponLeverChester
-  - MagazineShotgunLeverRifleEmpty
-  - MagazineShotgunLeverRifleEmpty
-  - MagazineBoxShotgunHighCaliberEMP
-  - MagazineBoxShotgunHighCaliberEnsnaring
-#  tables:
-#  - ChesterRandomAmmoTable
+  - BlueshieldAmmunitionBoxFilled
 
 - type: selectableSet
   id: BSOSyringeSet
