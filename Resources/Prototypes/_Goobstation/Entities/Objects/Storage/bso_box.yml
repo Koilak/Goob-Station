@@ -13,7 +13,7 @@
   id: BlueshieldAmmunitionBox
   name: blueshield ammunition box
   description: A box containing various ammunition and magazines for high caliber shotguns.
-  parent: BaseStorageItem
+  parent: [BaseStorageItem, BaseCentcommContraband]
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Security/blueshieldundetermined.rsi
