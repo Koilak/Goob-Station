@@ -66,3 +66,23 @@
       amount: 3
   - type: Sprite
     sprite: _Goobstation/Objects/Storage/boxes.rsi
+
+  - type: entity
+    parent: BlueshieldAmmunitionBox
+    id: BlueshieldAmmunitionBoxFilled
+    suffix: filled
+    components:
+      - id: MagazineBoxShotgunHighCaliberEnsnaring
+        amount: 1
+      - id: MagazineBoxShotgunHighCaliberEMP
+        amount: 1
+      - id: MagazineBoxShotgunHighCaliber
+        amount: 1
+      - id: MagazineBoxShotgunSlugHighCaliber
+        amount: 1
+      - id: MagazineBoxShotgunBeanbagHighCaliber
+        amount: 1
+#      - id: MagazineBoxShotgunHighCaliberFlash
+#        amount: 1
+      - id: MagazineShotgunLeverRifleEmpty
+        amount: 2
